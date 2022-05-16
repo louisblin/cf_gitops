@@ -1,0 +1,13 @@
+{
+  "appName": "app-proxy",
+  "userGivenName": "app-proxy",
+  "destNamespace": "my-cf",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/app-proxy/overlays/my-cf",
+  "srcRepoURL": "https://github.com/louisblin/cf_gitops.git",
+  "srcTargetRevision": "",
+  "labels": {
+    "codefresh_io_entity": "component",
+    "codefresh_io_internal": "true"
+  }
+}
